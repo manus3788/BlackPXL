@@ -1,0 +1,18 @@
+After extraction of attachment :
+1) Update composer to load vendor files
+	command : composer update 
+
+2) Generate key : php artisan key:generate 
+
+3) Add .ENV file using env.example
+
+3) Update .ENV file
+	add database creentials
+	add APP Name
+	smtp configuration
+
+4) SQL file is also attached please upload it your database
+
+5) Try Login using 
+	username:example@email.com,
+	password:1234567890
